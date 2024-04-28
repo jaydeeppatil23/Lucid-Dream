@@ -11,7 +11,7 @@ app = Ursina(development_mode=True, title='Lucid Dreams')
 window.borderless = False
 window.icon = 'imp/assets/gr8logo.ico'
 shader = lit_with_shadows_shader
-Entity.default_shader = shader
+Text.default_font='imp/assets/font.tff'
 ambient = AmbientLight(color=Vec4(0.5, 0.55, 0.66, 0) * 1.3)
 pivot = Entity()
 DirectionalLight(parent=pivot, y=2, z=3, rotation=(45, -45, 45), shadows=True)
