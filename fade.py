@@ -12,7 +12,7 @@ class Fade(Entity):
             z=-10  # Render above everything
         )
         self.duration = duration
-        self.txt=Text(text,parent=camera.ui,color=color.clear,font='.imp/assets/font.tff',scale=2,origin=(0,0),z=-11)
+        self.txt=Text(text,parent=camera.ui,color=color.clear,font='imp/assets/font.tff',scale=2,origin=(0,0),z=-11)
         
     
 
